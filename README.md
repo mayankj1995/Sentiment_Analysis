@@ -39,6 +39,7 @@ The training_data folder has two files for each stock. We use the 2015-2016 year
 	
 # training folder
 There are two files in this folder.
+
 a) train_twitter_data.py - This program takes in the training data from the tmp/training_data folder and trains the Naive Bayes classifier. Then it prints out the accuracy of the classifier by testing it with the test dataset. It also saves the results in the tmp/results/twitter folder. 
 
 b) train_news_data.py - It does the same thing as the above train_twitter_data.py, but with the news data.
